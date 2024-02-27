@@ -1,0 +1,129 @@
+
+       body{
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto' sans-serif;
+       }
+       h1, h2, h3, h4, h5, h6 {
+        font-family: 'Inter', sans-serif;
+       }
+       #navbar {
+        padding : 8px;
+        margin: 0;
+       }
+       
+       h1 {
+          text-align: center;
+          
+        }
+        #Banner{
+            width: 100%;
+            object-fit: cover;
+        }
+        .location{
+            color: gray;
+            margin-bottom:16px ;
+        }
+        #about{
+            display: flex;
+            max-width: 800px;
+            margin: 0 auto ;
+            padding: 8px;
+        }
+        #description{
+            width: 50%;
+            padding-right:  8px;
+        }
+        #team{
+            width: 50%;
+
+        }
+        #team-image{
+            border-radius: 5px;
+            width: 100%;
+        }
+        h2{
+            text-align: center;
+        }
+        #jobs{
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 8px;
+        }
+        h3{
+            margin-bottom: 4px;
+            margin-top: 0;
+        }
+        .apply{
+            float: right;
+        }
+        a{
+            text-decoration: none;
+        }
+        #footer{
+            background-color: ghostwhite;
+            padding: 8px;
+            margin-top: 32px;
+            text-align: center;
+        }
+        #footer-link{
+            list-style: none;
+           
+        }
+        #footer-link li{
+            display: inline;
+            margin: 0 16px;
+        }
+        #copy-right{
+            color: gray;
+        }
+        #Job-table{
+            width: 100%;
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+        .job-header-row th{
+            border: 1px solid gray;
+            padding: 8px;
+            background-color: aliceblue;
+            text-align: left;
+        }
+        .job-data-row td{
+            border: 1px solid gray;
+            padding: 8px;
+        }
+        #Job-table tr:nth-child(odd){
+            background-color: ghostwhite;
+        }
+        #application{
+            padding: 0 8px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        #application-form label{
+            font-weight: 600;
+        }
+        #application-form input, select, textarea{
+            padding: 8px;
+            font-size: 1.25rem;
+            margin-top: 4px;
+            border-radius: 5px;
+            border-color: gray;
+        }
+        .form-group{
+            margin: 16px 0;
+        }
+        .form-group input[type="submit"]{
+            background-color: #3b82f6;
+            color: white;
+            font-weight: 500;
+            padding: 16px;
+            cursor: pointer;
+        }
+        .form-group input[type="file"]{
+            cursor: pointer;
+        }
+        .form-group textarea{
+            width: 80%;
+            font-family: 'Roboto', sans-serif;
+        }
